@@ -1,0 +1,21 @@
+
+{% extends 'blog/wrapper.html' %}
+{% block content %}
+          <div class="single">
+	 <div class="container">
+		 <h1 align="center" style="margin-bottom: 10px">{{post.title}}</h1>
+		  <div class="col-md-8 single-main">
+			  <div class="single-grid">
+
+					<p>{{post.text|linebreaksbr}}</p>
+			  </div>
+
+<div class="footer">
+	 <div class="container">
+	 <p>Copyrights © 2015 Blog All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+	 </div>
+</div>
+		  </div>
+	 </div>
+		  </div>
+                {% endblock %}
